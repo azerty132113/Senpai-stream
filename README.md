@@ -34,4 +34,4 @@ Suivez les étapes ci-dessous pour installer et exécuter l'application :
    ```bash
    npm run package
 
-Votre executable sera dans Senpai-stream\out 
+Votre executable sera dans Senpai-stream\out\Senpai-stream-win32-x64\Senpai-stream.exe
