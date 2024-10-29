@@ -1,6 +1,6 @@
 # Senpai Stream
 
-![Senpai Stream Logo](https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://senpai-stream.net&size=16) <!-- Remplacez par le lien vers le logo de votre projet -->
+![Senpai Stream Logo](https://senpai-stream.net/static/img/logo-1728677665.svg) <!-- Remplacez par le lien vers le logo de votre projet -->
 
 ## Description
 
