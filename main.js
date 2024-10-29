@@ -6,11 +6,15 @@ function createWindow() {
   const win = new BrowserWindow({
     width: 1200,
     height: 800,
+    autoHideMenuBar: true,  // Masquer automatiquement la barre de menus
     webPreferences: {
       nodeIntegration: true,
       contextIsolation: false
     }
   });
+
+  // Masquer la barre de menus même en mode plein écran
+  win.setMenuBarVisibility(false);
 
   // Charger le site de streaming
   win.loadURL('https://senpai-stream.net/'); // Remplace par l'URL de ton choix
