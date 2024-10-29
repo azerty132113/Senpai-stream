@@ -26,11 +26,12 @@ Suivez les étapes ci-dessous pour installer et exécuter l'application :
    ```bash
    git clone https://github.com/azerty132113/Senpai-stream.git
 
-2. **Généré le package** :
+2. **Installez les dépendances** :
    ```bash
    npm i
-   a
-   ```bash
-   npm run package 
 
-Votre executable sera dans \out
+3. **Générez le package ** :
+   ```bash
+   npm run package
+
+Votre executable sera dans \out 
