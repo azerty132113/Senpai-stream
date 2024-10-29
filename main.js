@@ -18,7 +18,7 @@ function createWindow() {
   win.setMenuBarVisibility(false);
 
   // Charger le site de streaming
-  win.loadURL('https://senpai-stream.net/'); // Remplace par l'URL de ton choix
+  win.loadURL('https://senpai-stream.net/');
 }
 
 // Activer le bloqueur de publicités et de traqueurs
@@ -35,11 +35,11 @@ app.whenReady().then(() => {
 app.on('web-contents-created', (event, contents) => {
   contents.setWindowOpenHandler(({ url }) => {
     // Vérifier si l'URL fait partie du domaine autorisé
-    const allowedDomain = 'senpai-stream.net'; // Remplace par le domaine de ton choix
+    const allowedDomain = 'senpai-stream.net';
     if (!url.includes(allowedDomain)) {
       return { action: 'deny' }; // Bloquer les URLs externes
     }
-    return { action: 'allow' }; // Autoriser les URLs du domaine de streaming
+    return { action: 'allow' }; // Autoriser les URLs du domaine
   });
 });
 
