@@ -25,3 +25,8 @@ Suivez les étapes ci-dessous pour installer et exécuter l'application :
 1. **Clonez le dépôt** :
    ```bash
    git clone https://github.com/azerty132113/Senpai-stream.git
+
+2. **Généré le package** :
+   ```bash
+   npm install
+   npm run package 
