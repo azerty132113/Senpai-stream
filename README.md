@@ -30,3 +30,5 @@ Suivez les étapes ci-dessous pour installer et exécuter l'application :
    ```bash
    npm install
    npm run package 
+
+Votre executable sera dans \out
