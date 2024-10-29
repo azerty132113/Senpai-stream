@@ -28,7 +28,9 @@ Suivez les étapes ci-dessous pour installer et exécuter l'application :
 
 2. **Généré le package** :
    ```bash
-   npm install
+   npm i
+   a
+   ```bash
    npm run package 
 
 Votre executable sera dans \out
