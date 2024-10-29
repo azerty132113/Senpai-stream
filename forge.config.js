@@ -1,7 +1,7 @@
 module.exports = {
   packagerConfig: {
     asar: true,
-    icon: './assets/icon', // Ne spécifiez pas l'extension ici, Electron Forge ajoutera .ico automatiquement pour Windows
+    icon: './assets/icon',
     extraResource: [],
   },
   rebuildConfig: {},
