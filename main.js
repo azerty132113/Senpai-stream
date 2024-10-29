@@ -7,6 +7,7 @@ function createWindow() {
     width: 1200,
     height: 800,
     autoHideMenuBar: true,  // Masquer automatiquement la barre de menus
+    icon: __dirname + '/assets/icon.ico',
     webPreferences: {
       nodeIntegration: true,
       contextIsolation: false
